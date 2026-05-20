@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superkino Equipments Pvt. Ltd. | Precision Castings</title>
+    <!-- Tailwind CSS for Grid and Utility Classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Core Swiss Typography and Variables */
+        :root {
+            --swiss-red: #E60000;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Instant brutalist transitions only */
+        * {
+            transition: none !important; 
+            border-radius: 0 !important;
+        }
+        /* Custom border width for crisp lines */
+        .grid-line {
+            border-color: #000000;
+            border-width: 1px;
+        }
+        /* Massive typography styling */
+        .swiss-h1 {
+            font-size: clamp(3rem, 7vw, 8rem);
+            line-height: 0.9;
+            letter-spacing: -0.04em;
+            font-weight: 700;
+        }
+        .swiss-h2 {
+            font-size: clamp(2rem, 4vw, 4.5rem);
+            line-height: 1;
+            letter-spacing: -0.03em;
+            font-weight: 700;
+        }
+        .swiss-p {
+            font-size: clamp(1.25rem, 2vw, 2.5rem);
+            line-height: 1.15;
+            letter-spacing: -0.01em;
+            font-weight: 500;
+        }
+        .swiss-nav-link {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .text-swiss-red { color: var(--swiss-red); }
+        .bg-swiss-red { background-color: var(--swiss-red); }
+        
+        /* Instant hover inversion */
+        .hover-invert:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .hover-red:hover {
+            background-color: var(--swiss-red);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="min-h-screen border-t border-l border-r border-black m-4 max-w-[1920px] 2xl:mx-auto">
+
+    <!-- Global Navigation -->
+    <header class="grid grid-cols-1 md:grid-cols-12 border-b grid-line">
+        <!-- Logo Area -->
+        <div class="col-span-1 md:col-span-3 border-b md:border-b-0 md:border-r grid-line p-4 lg:p-6 flex items-center justify-start">
+            <img src="SKINO LOGO-TRANSPERENT.png" alt="Superkino Logo" class="h-10 object-contain" onerror="this.outerHTML='<h1 class=\'text-2xl font-black tracking-tighter text-swiss-red\'>SUPERKINO</h1>'">
+        </div>
+        
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex col-span-9">
+            <a href="#" class="swiss-nav-link flex-1 flex items-center justify-center text-center p-4 border-r grid-line hover-invert">About Us</a>
+            <a href="#" class="swiss-nav-link flex-1 flex items-center justify-center text-center p-4 border-r grid-line hover-invert">Casting Tech</a>
+            <a href="#" class="swiss-nav-link flex-1 flex items-center justify-center text-center p-4 border-r grid-line hover-invert">Industries</a>
+            <a href="#" class="swiss-nav-link flex-1 flex items-center justify-center text-center p-4 border-r grid-line hover-invert">Quality</a>
+            <a href="#" class="swiss-nav-link flex-1 flex items-center justify-center text-center p-4 hover-invert">Contact</a>
+            <a href="#" class="swiss-nav-link bg-black text-white flex items-center justify-center text-center p-4 px-8 hover-red border-l grid-line">Request Quote</a>
+        </nav>
+        
+        <!-- Mobile Nav Placeholder -->
+        <div class="md:hidden flex col-span-1 border-t grid-line text-sm font-bold uppercase">
+            <a href="#" class="flex-1 text-center p-4 border-r grid-line">Menu</a>
+            <a href="#" class="flex-1 text-center p-4 bg-black text-white">Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 border-b grid-line min-h-[70vh]">
+        <!-- Typographic Art Area -->
+        <div class="col-span-1 lg:col-span-7 border-b lg:border-b-0 lg:border-r grid-line p-6 md:p-12 lg:p-16 flex flex-col justify-end">
+            <h4 class="uppercase font-bold text-xs md:text-sm tracking-widest mb-8 text-black/60">Superkino Equipments Pvt. Ltd.</h4>
+            <h1 class="swiss-h1 text-left">
+                Precision<br>
+                Aluminium<br>
+                Castings for<br>
+                Global OEMs<br>
+                Since <span class="text-swiss-red">1965.</span>
+            </h1>
+        </div>
+        
+        <!-- Objective Media Area -->
+        <div class="col-span-1 lg:col-span-5 bg-zinc-200 relative group overflow-hidden">
+            <!-- Simulated Video Element -->
+            <div class="absolute inset-0 bg-zinc-800 flex flex-col items-center justify-center p-8 text-center border-l grid-line">
+                <div class="w-16 h-16 border-2 border-white flex items-center justify-center mb-4 text-white hover:bg-white hover:text-black cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                </div>
+                <p class="text-white font-mono text-xs uppercase tracking-widest">[ 10-SEC MOLTEN METAL VIDEO ]</p>
+                <p class="text-zinc-400 mt-4 font-bold text-sm uppercase">Empowering manufacturing innovation<br>with advance casting technologies</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction / Manifesto -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 border-b grid-line">
+        <div class="col-span-1 lg:col-span-4 border-b lg:border-b-0 lg:border-r grid-line p-6 lg:p-12 bg-black text-white flex items-end">
+            <h2 class="text-2xl lg:text-3xl font-bold leading-none tracking-tight">Built on Quality.<br>Cast for Performance.</h2>
+        </div>
+        <div class="col-span-1 lg:col-span-8 p-6 md:p-12 lg:p-16 hover-invert cursor-default">
+            <p class="swiss-p">
+                Superkino converts complex engineering requirements into precision aluminium castings. Combining advanced casting technologies, process expertise, and high-precision machining, we support global OEMs with reliable components for demanding industrial applications worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Capabilities / Services Grid -->
+    <section class="border-b grid-line">
+        <div class="p-4 border-b grid-line flex justify-between items-end bg-zinc-100">
+            <h3 class="text-sm font-bold uppercase tracking-widest">Capabilities & Technologies</h3>
+            <span class="text-sm font-bold">01</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="p-8 border-b md:border-b-0 lg:border-b-0 md:border-r grid-line hover-invert cursor-pointer">
+                <h4 class="text-3xl font-bold mb-12 tracking-tight">Casting<br>Technologies</h4>
+                <ul class="text-sm uppercase font-bold tracking-wider space-y-4">
+                    <li class="flex justify-between border-b border-black/20 pb-2">Sand Casting <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Gravity Die Casting <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Low Pressure Die Casting <span>+</span></li>
+                </ul>
+            </div>
+            <div class="p-8 border-b lg:border-b-0 md:border-r grid-line hover-invert cursor-pointer">
+                <h4 class="text-3xl font-bold mb-12 tracking-tight">Precision<br>Machining</h4>
+                <ul class="text-sm uppercase font-bold tracking-wider space-y-4">
+                    <li class="flex justify-between border-b border-black/20 pb-2">CNC Machining <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Tool Design & Mfg <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Surface Treatment <span>+</span></li>
+                </ul>
+            </div>
+            <div class="p-8 hover-invert cursor-pointer">
+                <h4 class="text-3xl font-bold mb-12 tracking-tight">Testing &<br>Quality</h4>
+                <ul class="text-sm uppercase font-bold tracking-wider space-y-4">
+                    <li class="flex justify-between border-b border-black/20 pb-2">Heat Treatment <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Leak Testing <span>+</span></li>
+                    <li class="flex justify-between border-b border-black/20 pb-2">Quality Inspection <span>+</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries (Objective Photography) -->
+    <section class="border-b grid-line">
+        <div class="p-4 border-b grid-line flex justify-between items-end bg-black text-white">
+            <h3 class="text-sm font-bold uppercase tracking-widest">Industries Served</h3>
+            <span class="text-sm font-bold">02</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3">
+            <!-- Industry 1 -->
+            <div class="border-b md:border-b-0 md:border-r grid-line relative group cursor-pointer overflow-hidden">
+                <div class="h-64 lg:h-96 w-full bg-zinc-300">
+                    <!-- Images are greyscale by default to fit Swiss aesthetic, color on hover -->
+                    <img src="IND-05-AEROSPACE INDUSTRY.jpg" alt="Aerospace Industry" class="w-full h-full object-cover grayscale group-hover:grayscale-0">
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-black/80 to-transparent">
+                    <h4 class="text-white text-2xl font-bold tracking-tight">Aerospace</h4>
+                </div>
+            </div>
+            <!-- Industry 2 -->
+            <div class="border-b md:border-b-0 md:border-r grid-line relative group cursor-pointer overflow-hidden">
+                <div class="h-64 lg:h-96 w-full bg-zinc-300">
+                    <img src="IND-06-DEFENSE INDUSTRY.webp" alt="Defense Industry" class="w-full h-full object-cover grayscale group-hover:grayscale-0">
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-black/80 to-transparent">
+                    <h4 class="text-white text-2xl font-bold tracking-tight">Defense</h4>
+                </div>
+            </div>
+            <!-- Industry 3 -->
+            <div class="relative group cursor-pointer overflow-hidden">
+                <div class="h-64 lg:h-96 w-full bg-zinc-300">
+                    <img src="IND-07-LOCOMOTIVE INDUSTRY.webp" alt="Locomotive Industry" class="w-full h-full object-cover grayscale group-hover:grayscale-0">
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-black/80 to-transparent">
+                    <h4 class="text-white text-2xl font-bold tracking-tight">Locomotive</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Industry List -->
+        <div class="border-t grid-line p-6 lg:p-8 bg-zinc-50">
+            <p class="text-lg lg:text-xl font-bold leading-snug">
+                Also serving: Power Transmission & Distribution (T&D), Electric Mobility Solutions, Refineries (Pumps & Valves), Renewable Energy, Health Care Equipments, and Heavy Machinery.
+            </p>
+        </div>
+    </section>
+
+    <!-- Standards & Certifications -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 border-b grid-line">
+        <div class="col-span-1 lg:col-span-4 border-b lg:border-b-0 lg:border-r grid-line p-6 lg:p-12">
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-12">Quality & Certifications</h3>
+            <h2 class="swiss-h2">Global<br>Standards.</h2>
+        </div>
+        <div class="col-span-1 lg:col-span-8 p-6 lg:p-12 bg-zinc-100 flex flex-col justify-center">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-4xl lg:text-6xl font-black tracking-tighter mb-2">9001</h4>
+                    <p class="text-sm font-bold uppercase tracking-widest">ISO Certified</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl lg:text-6xl font-black tracking-tighter mb-2">14001</h4>
+                    <p class="text-sm font-bold uppercase tracking-widest">ISO Certified</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl lg:text-6xl font-black tracking-tighter mb-2">45001</h4>
+                    <p class="text-sm font-bold uppercase tracking-widest">ISO Certified</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl lg:text-6xl font-black tracking-tighter mb-2 text-swiss-red">2026</h4>
+                    <p class="text-sm font-bold uppercase tracking-widest">AS9100 / IATF Target</p>
+                </div>
+            </div>
+            <p class="mt-12 text-xl font-medium max-w-3xl">Internal & External Audit Systems aligned with internationally recognized standards, supported by certified third-party testing & validation (RT, Microstructure, Physical Property).</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-black text-white">
+        <div class="p-8 border-b md:border-b-0 lg:border-r border-zinc-800 flex flex-col justify-between">
+            <h2 class="text-3xl font-black tracking-tighter text-swiss-red mb-8">SUPERKINO</h2>
+            <p class="text-xs uppercase tracking-widest text-zinc-500">© 2026 Superkino Equipments Pvt. Ltd.</p>
+        </div>
+        <div class="p-8 border-b md:border-b-0 lg:border-r border-zinc-800">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">Contact</h4>
+            <p class="font-bold mb-2 hover:text-swiss-red cursor-pointer">info@skino.in</p>
+            <p class="font-bold hover:text-swiss-red cursor-pointer">www.skino.in</p>
+        </div>
+        <div class="p-8 border-b lg:border-b-0 lg:border-r border-zinc-800">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">Explore</h4>
+            <ul class="space-y-2 font-bold">
+                <li class="hover:text-swiss-red cursor-pointer">About Us</li>
+                <li class="hover:text-swiss-red cursor-pointer">Industries</li>
+                <li class="hover:text-swiss-red cursor-pointer">Facility</li>
+                <li class="hover:text-swiss-red cursor-pointer">Careers</li>
+            </ul>
+        </div>
+        <div class="p-8 bg-swiss-red flex items-center justify-center cursor-pointer hover:bg-white hover:text-black">
+            <h2 class="text-2xl lg:text-3xl font-bold tracking-tight text-center">Request<br>A Quote →</h2>
+        </div>
+    </footer>
+
+</body>
+</html>
